@@ -1,0 +1,127 @@
+
+body{
+    background-color:#ffe3d6 ;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;   /* stack vertically */
+    align-items: center;      /* center the boxes */
+  }
+
+  .body, .about {
+    max-width: 90%;           /* fit screen width */
+  }
+}
+
+.container{
+    display: flex;
+    background-color:#ffe3d6;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;     
+    align-items: flex-start; 
+    justify-content: center;
+
+}
+.topbar{
+    flex:auto;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000;
+    text-decoration: none; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+    
+    max-width: 1000px;
+    background-color:#ad4c1f;;
+    color: #ffe3d6;
+    
+    border: #ad4c1f solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+a{
+    text-decoration: none; 
+    color: black;
+}
+.body{
+    flex: 2;
+    margin: 0;
+
+    background-image: url('/59a0d73139b06bd5191bfd6e12758b42.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;  
+    min-height:700px;
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+    border: #ad4c1f solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+.about{
+    flex: 1;
+    margin: 0;
+
+    border: #ad4c1f solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    position: relative; 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;    
+
+}
+
+#Hello {
+    color: #ffcc00;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+.so {
+    font-family: Arial, sans-serif;
+    color: #e07f52;
+    text-decoration:underline;
+    text-transform:initial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#ad4c1f;
+    text-align: justify;
+    text-transform:lowercase;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #fff;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ol{
+    list-style:square;
+}
+
+
